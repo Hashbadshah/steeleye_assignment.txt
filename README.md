@@ -1,6 +1,9 @@
 # steeleye_assignment.txt
-1.Explain what the simple List component does.
- Ans. In order to keep React list components tidy, We can extract them to standalone component that only care about their concerns. For instance, the List component (index, isSelected, onClickHandler) makes sure to map over the array to render a list of ListItem components for each item as child component. 
+
+1.
+Explain what the simple List component does.
+ Ans. 
+In order to keep React list components tidy, We can extract them to standalone component that only care about their concerns. For instance, the List component (index, isSelected, onClickHandler) makes sure to map over the array to render a list of ListItem components for each item as child component. 
      The List components offer an API to the outside. This way the Application components can pass the array as list props to the List components. One little trick for conditional rendering. If you don't know whether the incoming list is null or undefined, default to an empty list itself.
       The List and List-Item components are used so often in React applications, that they can be taken as list template or boilerplate, because often you just copy and paste the same implementation for a simple list over to our code. So keeping this structure for a list component(Index,  in mind, isSelected, onClickHandler) do not harm.
 
@@ -8,6 +11,8 @@
 2.
 What problems / warnings are there with code?
 problems in codes.
+
+Ans
 [plugin:vite:import-analysis] Failed to resolve import "prop-types" from "src/App.jsx". Does the file exist?
 /home/damner/code/src/App.jsx:2:0
 15 |  var _jsxFileName = "/home/damner/code/src/App.jsx", _s = $RefreshSig$();
@@ -27,6 +32,7 @@ problems in codes.
 
 3.
 Please fix, optimize, and/or modify the component as much as you think is necessary.
+
 Ans. 
 the correct code for question.
 
