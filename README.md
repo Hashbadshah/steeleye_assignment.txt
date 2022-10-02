@@ -25,8 +25,11 @@ problems in codes.
     at async loadAndTransform (file:///home/damner/code/node_modules/vite/dist/node/chunks/dep-561c5231.js:39740
 
 
-3.Please fix, optimize, and/or modify the component as much as you think is necessary.
-Ans. the correct code for question.
+3.
+Please fix, optimize, and/or modify the component as much as you think is necessary.
+Ans. 
+the correct code for question.
+
 import React, { useState, useEffect, memo } from 'react';
 import PropTypes from 'prop-types';
 
